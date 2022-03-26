@@ -1,6 +1,6 @@
 # iSkill-Website
 <pre>
-The main features of our project are:
+The main features of iSkill- Website are:
 •	First they can Login and check the courses from their available device.
 •	See most enrolled courses and check other courses of your choice.
 •	Enrol in the course and complete it.
