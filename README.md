@@ -94,7 +94,7 @@ width="800px">
  
 <b>Student-PaymentStatus<b>
 <br>
-<img src="https://github.com/nikita-mirchandani/iSkill-Website/blob/main/iskill-images/paymentpage.jpeg" width="800px"><br><br>
+<img src="https://github.com/nikita-mirchandani/iSkill-Website/blob/main/iskill-images/student-paymentstatus.jpeg" width="800px"><br><br>
 
 <b>Student-Change - password<b>
 <br>
