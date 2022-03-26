@@ -1,14 +1,14 @@
 # iSkill-Website
 <pre>
 The main features of iSkill- Website are:
-•	First they can Login and check the courses from their available device.
+•	First they(Students) can Login and check the courses from their available device.
 •	See most enrolled courses and check other courses of your choice.
-•	Enrol in the course and complete it.
+•	Enroll in the course and complete it.
 •	After that can give the feedback form for that course.
 •	Student can see Feedback History.
 •	And can also explore more courses.
 •	Can change password, Profile Photo, Occupation.
-•	Admin side they can login as admin then can get details of course enrol, student’s enrolment and courses available
+•	Admin side they(admin) can login as admin then can get details of courses enrolled, student’s enrollment and courses available
 •	Admin can create update and delete courses and Lessons.
 •	Admin can see sell report of course, Payment Status, Courses and Lessons.
 •	Admin can add new student.
