@@ -1,0 +1,43 @@
+/* (A) SAME DIMENSIONS FOR OUTER CONTAINER & SLIDES */
+.vwrap, .vslide {
+  box-sizing: border-box;
+  width: 100%;
+  height: 150px;
+}
+
+/* (B) OUTER CONTAINER */
+.vwrap {
+  background: #ebfbff;
+  border: 2px solid #a69bff;
+  overflow: hidden; /* HIDE SCROLLBARS */
+}
+
+/* (C) MIDDLE CONTAINER */
+.vmove {
+  position: relative;
+  bottom: 0%;
+}
+
+/* (D) SLIDES */
+.vslide { padding: 10px; }
+
+/* (E) SLIDE ANIMATION */
+@keyframes slidev {
+  /* (E0) THE IDEA - USE KEYFRAMES TO SHIFT SLIDES *
+  0% { bottom: 0; }
+  33% { bottom: 100%; }
+  66% { bottom: 200%; }
+  100% { right: 0; }
+
+  /* (E1) BUT THE ABOVE WILL SHIFT NON-STOP */
+  /* SO WE ADD PAUSES BETWEEN EACH SLIDE */
+  0% { bottom: 0; }
+  30% { bottom: 0; }
+  33% { bottom: 100%; }
+  63% { bottom: 100%; }
+  66% { bottom: 200%; }
+  97% { bottom: 200%; }
+  100% { right: 0; }
+}
+.vmove { animation: slidev linear 15s infinite; }
+.vmove:hover { animation-play-state: paused; }

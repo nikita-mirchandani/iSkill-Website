@@ -1,0 +1,111 @@
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+}
+.embed-responsive .card-img-top {
+    object-fit: cover;
+}
+
+
+.custom-nav .custom-nav-item a{
+    color:#fff !important;
+}
+
+.custom-nav-item:hover{
+    background-color: #dc3545;
+    border:solid #dc3545 1 px;
+    border-radius:10px;
+}
+.remove-vid-marg{
+    margin: 0px;
+    padding: 0px;
+}
+
+.vid-parent{
+    position:relative;
+}
+video{
+    width:100%;
+    height:100%;
+}
+
+.vid-overlay{
+    position: absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width: 100%;
+    background-color: #8bd8be;
+    z-index: 1;
+    opacity: 0.8;
+}
+
+.vid-content{
+    position: absolute;
+    z-index: 2;
+    top: 35%;
+    left: 35%;
+    text-align: center;
+    color: #fff;
+}
+
+.bottom-banner{
+    color:#fff;
+    padding:10px;
+}
+
+a.social-hover:hover{
+    padding: 10px 100px;
+    text-decoration:none;
+    background-color:rgb(95, 93, 93);
+}
+
+.stripe{
+    background-image: linear-gradient(240deg,#ed213a,#93291e);
+    padding: 3rem;
+    height:13em;
+    margin-top: 4rem;
+    transform :rotate(10deg);
+    z-index: -5;
+}
+.testimonial-group > .row {
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  .testimonial-group > .row > .col-xs-4 {
+    display: inline-block;
+    float: none;
+  }
+  
+  /* Decorations */
+  .col-xs-4 { color: #fff; font-size: 48px; padding-bottom: 20px; padding-top: 18px; }
+  .col-xs-4:nth-child(3n+1) { background: #c69; }
+  .col-xs-4:nth-child(3n+2) { background: #9c6; }
+  .col-xs-4:nth-child(3n+3) { background: #69c; }
+/* Setting Welcome to iCharusat and all the things center in the screen */
+
+@media screen and (min-width:0px) and (max-width:700px){
+    
+    .my-content,
+    .txt-banner,
+    .stripe{
+        display: none;
+    }
+    
+    .vid-content{
+        top:15%;
+        left:60%;
+    }
+
+    .custom-nav .custom-nav-item a{
+        padding:10px 20px;
+        background-color: #225470;
+    }
+
+    .custom-nav-item:hover{
+        background-color: none;
+        border:none;
+        border-radius: none;
+    }
+}

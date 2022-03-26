@@ -1,0 +1,47 @@
+/* (A) OUTER CONTAINER */
+.hwrap {
+  /* (A1) DIMENSIONS */
+  width: 100%;
+  height: 150px; /* OPTIONAL */
+
+  /* (A2) COSMETICS */
+  background: #fffdea;
+  border: 2px solid #ffcf1f;
+  overflow: hidden; /* HIDE SCROLLBARS */
+}
+
+/* (B) MIDDLE CONTAINER - FLEX LAYOUT */
+.hmove {
+  display: flex;
+  position: relative;
+  top: 0; right: 0;
+}
+
+/* (C) SLIDES - FORCE INTO ONE LONG HORIZONTAL ROW */
+.hslide {
+  width: 100%;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+/* (D) SLIDE ANIMATION */
+@keyframes slideh {
+  /* (D0) THE IDEA - USE KEYFRAMES TO SHIFT SLIDES *
+  0% { right: 0; }
+  33% { right: 100%; }
+  66% { right: 200%; }
+  100% { right: 0; }
+
+  /* (D1) BUT THE ABOVE WILL SHIFT NON-STOP */
+  /* SO WE ADD PAUSES BETWEEN EACH SLIDE */
+  0% { right: 0; }
+  30% { right: 0; }
+  33% { right: 100%; }
+  63% { right: 100%; }
+  66% { right: 200%; }
+  97% { right: 200%; }
+  100% { right: 0; }
+}
+.hmove { animation: slideh linear 15s infinite; }
+.hmove:hover { animation-play-state: paused; }
