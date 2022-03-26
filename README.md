@@ -71,7 +71,7 @@ width="800px">
 
 <b>Student-Profile<b>
 <br>
-<img src="https://github.com/nikita-mirchandani/Hotel-Website/blob/main/images/managermenu.jpeg" width="800px"><br><br>
+<img src="https://github.com/nikita-mirchandani/iSkill-Website/blob/main/iskill-images/profile.jpeg" width="800px"><br><br>
 
 
 <b>Student-myprofile<b>
