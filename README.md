@@ -37,6 +37,11 @@ width="800px">
 ### Client View
 <br>
 
+<b>Departments<b>
+<br>
+<img src="https://github.com/nikita-mirchandani/iSkill-Website/blob/main/iskill-images/departments.jpeg" width="800px"><br><br>
+
+
 <b>Departments - Wise Courses<b>
 <br>
 <img src="https://github.com/nikita-mirchandani/iSkill-Website/blob/main/iskill-images/Departmentwiseallcourse.jpeg" width="800px"><br><br>
