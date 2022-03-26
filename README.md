@@ -163,3 +163,8 @@ https://github.com/nikita-mirchandani/iSkill-Website/blob/main/iskill_db.sql
 
 Spreadsheet Link :
   https://docs.google.com/spreadsheets/d/1-QO0rcaQgzWRR3ONBl1vqSMp7C-SMHbfBBdJURqaS7Q/edit?usp=sharing
+ 
+ <br><br>
+ SRS document :
+ https://github.com/nikita-mirchandani/iSkill-Website/blob/main/iskill-Website_srs.pdf
+ 
